@@ -34,7 +34,7 @@ qualify ROW_NUMBER() OVER (PARTITION BY daily_weather ORDER BY count(weather) de
 
 )
 
-
+-- qualify -> filtering
 
 select
 *
